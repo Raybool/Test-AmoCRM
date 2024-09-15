@@ -21,7 +21,11 @@ export const onClick = async (
   }
 };
 
-export const getStatusColor = (taskDate: number) => {
+export const getStatusColor = (taskDate: number | undefined) => {
+  if (!taskDate) {
+    return "red";
+  }
+
   const today = new Date();
   const taskDateObj = new Date(taskDate * 1000);
   const diffDays = Math.floor(
