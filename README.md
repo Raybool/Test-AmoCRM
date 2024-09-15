@@ -1,5 +1,13 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Instal project
+
+1. В консоле прописать
+   <code>yarn</code> ;
+2. Подождать пока установятся все необходимые пакеты ;
+3. Для запуска прописать <code>yarn dev</code>
+4. Открыть в браузере [http://localhost:3000](http://localhost:3000)
+
 ## Getting Started
 
 First, run the development server:
